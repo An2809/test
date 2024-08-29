@@ -1,0 +1,8 @@
+fetch_api_example.list_data:
+  path: '/fetch-api-example'
+  defaults:
+    _controller: '\Drupal\fetch_api_example\Controller\ApiController::listData'
+    _title: 'API Data List'
+  requirements:
+    _permission: 'access content'
+

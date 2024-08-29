@@ -1,0 +1,5 @@
+services:
+  fetch_api_example.api_service:
+    class: Drupal\fetch_api_example\Service\ApiService
+    arguments: ['@http_client']
+
